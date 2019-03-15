@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,13 +8,19 @@
 </head>
 <body>
 	<form action="" method="">
+		<label>Name:</label>
+		<input type="text" name="name">
 		<label>Username:</label>
 		<input type="text" name="uname">
+		<label>Email:</label>
+		<input type="email" name="email">
 		<label>Password:</label>
 		<input type="Password" name="psw">
+		<label>Confirm Password</label>
+		<input type="Password" name="cnfpsw">
+		<label>Phone-no:</label>
+		<input type="number" name="phone">
 		<button type="button">Submit</button>
-		<input type="Password" name="psw">
-		<button type="button">"Submit</button>
 	</form>
 </body>
 </html>
