@@ -7,5 +7,5 @@ class Customer(models.Model):
     name=models.CharField(max_length=100)
     username=models.CharField(max_length=100)
     email=models.EmailField(max_length=100)
-    contact=models.IntegerField()
+    phone=models.IntegerField()
 

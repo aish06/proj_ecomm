@@ -2,19 +2,25 @@
 <html>
 <head>
 	<title>
-		CustomerLogin
+		Login
 	</title>
 </head>
 <body>
+
+	{% if bool %}
+        <script type="text/javascript">
+            alert("Wrong Credentials")
+        </script>
+    {% endif %}
+
+
 	<form action="" method="">
 		<label>Username:</label>
 		<input type="text" name="uname">
 		<label>Password:</label>
 		<input type="Password" name="psw">
-		<label>Customer:</label>
-		<input type="checkbox" name="login_customer" value="customer">
-		<label>	Retailer:</label>
-		<input type="checkbox" name="login_retailer",value="retailer">
+		<input type="radio" name="category" value="cust" /> Customer
+  		<input type="radio" name="category" value="retail" /> Retailer
 		<button type="button">Submit</button>
 	</form>
 </body>
