@@ -127,7 +127,7 @@ def sign_ret_page(request):
             retail_profile.save()
             if new_user is not None:
                 return redirect("/login")
-        return render(request, "auth/retailer_signup.html", context)
+    return render(request, "auth/retailer_signup.html", context)
 
 def login_page(request):
     context={

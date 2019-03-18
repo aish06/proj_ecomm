@@ -7,7 +7,10 @@ class Retailer(models.Model):
     name = models.CharField(max_length=100)
     username = models.CharField(max_length=100)
     email = models.EmailField(max_length=100)
-    contact = models.IntegerField()
+    phone = models.IntegerField()
     address=models.TextField()
-    gstn=models.IntegerField()
+    gstno=models.IntegerField()
     aadhar=models.IntegerField()
+
+    def __str__(self):
+        return self.name

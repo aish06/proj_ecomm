@@ -9,3 +9,5 @@ class Customer(models.Model):
     email=models.EmailField(max_length=100)
     phone=models.IntegerField()
 
+    def __str__(self):
+        return self.name
