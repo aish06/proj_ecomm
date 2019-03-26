@@ -1,6 +1,10 @@
 @font-face{
 	font-family:vanilla;
-	src:url("H:\\Project\\proj_ecomm\\proj_ecom\\static\\fonts\\vanillapersonal.ttf")
+	src:url("H:\\Project\\proj_ecomm\\proj_ecom\\static\\fonts\\vanillapersonal.ttf");
+}
+@font-face{
+	font-family:vanillab;
+	src:url("H:\\Project\\proj_ecomm\\proj_ecom\\static\\fonts\\vanillapersonal-bold.ttf");
 }
 html{
 	height:100%;
@@ -17,8 +21,9 @@ h1{
 	font-family: vanilla;
 }
 h3{
-	color:white;
-	font-size:2.5rem;
+	color:black;
+	font-size:4rem;
+	font-family: vanillab;
 }
 #content{
 	text-align:center;
@@ -26,8 +31,10 @@ h3{
 }
 hr{
 	width:40%;
+	border-color:black;
 }
 .btn{
 	background-color: black;
 	color:white;
+	border:none;
 }

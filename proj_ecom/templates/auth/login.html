@@ -4,24 +4,46 @@
 	<title>
 		Login
 	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="H:\Project\proj_ecomm\proj_ecom\static\css\login.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-	{% if bool %}
-        <script type="text/javascript">
-            alert("Wrong Credentials")
-        </script>
-    {% endif %}
+	<!-- {% if bool %} -->
+        <!-- <script type="text/javascript"> -->
+            <!-- alert("Wrong Credentials") -->
+        <!-- </script> -->
+    <!-- {% endif %} -->
 
+<!-- The social media icon bar -->
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
 
-	<form method="POST">{% csrf_token %}
-		<label>Username:</label>
-		<input type="text" name="uname">
-		<label>Password:</label>
-		<input type="Password" name="psw">
-		<input type="radio" name="category" value="cust" /> Customer
-  		<input type="radio" name="category" value="retail" /> Retailer
-		<button type="submit" class="btn btn-default">Submit</button>
-	</form>
+    <div class="navbar">
+
+    </div>
+    <div class="con">
+		<form method="POST">
+			<!-- {% csrf_token %} -->
+			<h1>Customer Login</h1>
+			<input type="text" name="uname" placeholder="username">
+			<input type="Password" name="psw" placeholder="password">
+			<input type="radio" name="category" value="cust" /> Customer
+	  		<input type="radio" name="category" value="retail" /> Retailer
+	  		<br><br>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+	</div>
+	<div id="footer">
+		<b>&copy; 2018 Enthusiast Inc.
+		All rights reserved</b>
+	</div>
 </body>
 </html>
