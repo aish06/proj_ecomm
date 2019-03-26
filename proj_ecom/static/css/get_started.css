@@ -1,10 +1,10 @@
 @font-face{
 	font-family:vanilla;
-	src:url("H:\\Project\\proj_ecomm\\proj_ecom\\static\\fonts\\vanillapersonal.ttf");
+	src:url("/static/fonts/vanillapersonal.ttf");
 }
 @font-face{
 	font-family:vanillab;
-	src:url("H:\\Project\\proj_ecomm\\proj_ecom\\static\\fonts\\vanillapersonal-bold.ttf");
+	src:url("/static/fonts/vanillapersonal-bold.ttf");
 }
 html{
 	height:100%;
