@@ -2,41 +2,63 @@ html{
 	height:100%;
 }
 body{
-	background-image:url("H:\\Project\\proj_ecomm\\proj_ecom\\static\\img\\login.jpeg");
+	background-image:url("H:\\Project\\proj_ecomm\\proj_ecom\\static\\img\\wrapbox.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.con{
-	background-color:cyan;
-	height:70vh;
+.box{
+	background-color:white;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin:10% auto;
+	border: 1px solid black;
+	text-align:center;
+	width:50%;
+	border-radius: 5px;
+	color:black;
+	font-family: Catarman;
+	font-size:15px;
+}
+.portion1, .portion2{
 	width:40%;
-	margin:5% auto;
-	border-radius:50%;
+	margin: 0;
+	display:inline-block;
 }
-/*}https://images.unsplash.com/photo-1510284876186-b1a84b94418f?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80*/
-form{
-	padding-top:10%;
-	margin-left:35%;
-	/*margin-right:50%;*/
-	color:black;
-	outline:none;
-	border:none;
-}
-form h1{
-	margin-left:-10%;
-	color:black;
-}
-input{
-	display:block;
-	margin-bottom:5%;
-}
-button{
-	outline:none;
-	text-decoration: none;
-	border:none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
-.icon-bar {
+/*.icon-bar {
   position: fixed;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -45,7 +67,7 @@ button{
 }
 
 /* Style the icon bar links */
-.icon-bar a {
+/*.icon-bar a {
   display: block;
   text-align: center;
   padding: 16px;
@@ -53,9 +75,9 @@ button{
   color: white;
   font-size: 20px;
 }
-
+*/
 /* Style the social media icons with color, if you want */
-.icon-bar a:hover {
+/*.icon-bar a:hover {
   background-color: #000;
 }
 
@@ -82,4 +104,4 @@ button{
 .youtube {
   background: #bb0000;
   color: white;
-}
+}*/
