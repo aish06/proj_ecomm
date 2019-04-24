@@ -4,24 +4,46 @@
 	<title>
 		Login
 	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="H:\Project\proj_ecomm\proj_ecom\static\css\login.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-	{% if bool %}
-        <script type="text/javascript">
-            alert("Wrong Credentials")
-        </script>
-    {% endif %}
+	<!-- {% if bool %} -->
+        <!-- <script type="text/javascript"> -->
+            <!-- alert("Wrong Credentials") -->
+        <!-- </script> -->
+    <!-- {% endif %} -->
 
-
-	<form method="POST">{% csrf_token %}
-		<label>Username:</label>
-		<input type="text" name="uname">
-		<label>Password:</label>
-		<input type="Password" name="psw">
-		<input type="radio" name="category" value="cust" /> Customer
-  		<input type="radio" name="category" value="retail" /> Retailer
-		<button type="submit" class="btn btn-default">Submit</button>
-	</form>
+<!-- The social media icon bar -->
+<!--<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+-->
+	<div class="box">
+		<form method="">
+	  		<div class="portion1">
+	  			<a href="#"><h1>Customer</h1></a>
+	  		</div>
+	 		<div class="portion2">
+	  			<a href="#"><h1>Retailer</h1></a>
+	  		</div>
+	  		<input type="text" name="password" value="" placeholder="First Name">
+	  		<input type="text" name="password" value="" placeholder="Last Name">
+      		<input type="text" name="password" value="" placeholder="Email Address">
+      		<input type="text" name="password" value="" placeholder="Contact">
+      		<input type="text" name="password" value="" placeholder="Password">
+      		<input type="text" name="password" value="" placeholder="User Name">
+      		<input type="text" name="password" value="" placeholder="Delivery Address">
+      		<button class="submit"><a href="/data">Submit</a></button>
+  		</form>
+  		I already have an account.<a href="#">Log In</a>
+	</div>
 </body>
 </html>
