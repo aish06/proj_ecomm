@@ -9,7 +9,7 @@ from retailer_profile.models import Retailer
 User=get_user_model()
 
 def index(request):
-    return render(request,"get_started.html",{})
+    return render(request,"index.html",{})
 
 
 def sign_cust_page(request):
