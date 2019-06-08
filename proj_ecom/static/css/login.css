@@ -1,48 +1,93 @@
 html{
-	height:100%;
+  height:100%;
 }
 body{
-	background-image:url("H:\\Project\\proj_ecomm\\proj_ecom\\static\\img\\wrapbox.png");
-	background-size: cover;
-	background-repeat: no-repeat;
+  background-image:url("/proj_ecom/static/img/wrapbox.png");/*change in this line*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Catarman;
+  background-attachment:fixed;
 }
-.box{
-	background-color:white;
-	background-repeat: no-repeat;
-	background-position: center;
-	margin:10% auto;
-	border: 1px solid black;
-	text-align:center;
-	width:50%;
-	border-radius: 5px;
-	color:black;
-	font-family: Catarman;
-	font-size:15px;
+.box1,.box2,.box3{
+  background-color:white;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin:8% auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align:center;
+  width:50%;
+  color:black;
+  font-size:1em;
+  box-shadow:2px 2px 20px 2px black;
 }
-.portion1, .portion2{
-	width:40%;
-	margin: 0;
-	display:inline-block;
+#portion1{
+  width:40%;
+  font-size:2em;
+  margin-top:2%;
+  margin-bottom:2%;
+  margin-right:2.5%;
+  display:inline-block;
+  background-color:blue;
+  border-radius:5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#portion2{
+  width:40%;
+  font-size:2em;
+  margin-top:2%;
+  margin-bottom:2%;
+  margin-left:2.5%;
+  display:inline-block;
+  background-color:blue;
+  border-radius:5px;
+}
+#portion1 a{
+  color:white;
+  cursor: pointer;
+}
+#portion2 a{
+  color:white;
+  cursor: pointer;
+}
+input{
+  margin-bottom:4%;
+  border-radius:5px;
+  text-decoration: none;
+  border: 2px solid silver;
+}
+input:focus{
+  background-color:silver;
+}
+::placeholder{
+  padding-left:1%;
+}
+button{
+  text-decoration: none;
+  background-color:blue;
+  border:none;
+  border-radius:5px;
+}
+button a{
+  color:white;
+  text-decoration: none;
+}
+button:hover,button a:hover{
+  background-color: silver;
+  text-decoration: none;
+  color:black;
+}
+.box2,.box3{
+  display:none;
+}
+.show2{
+  display:block;
+}
+.show3{
+  display: block;
+}
+.show1{
+  display:none;
+}
 
 
 
