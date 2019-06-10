@@ -6,8 +6,8 @@ from retailer_profile.models import Retailer
 
 def get_filename_ext(filepath):
     base_name = os.path.basename(filepath)
-    name, ext = os.path.splitext(base_name)
-    return name, ext
+    name,ext = os.path.splitext(base_name)
+    return name,ext
 
 
 def upload_image_path_cake(instance, filename):
@@ -34,7 +34,7 @@ class Cake(models.Model):
     description = models.TextField()
     price = models.DecimalField(decimal_places=2, max_digits=20, default=0.00)
     image = models.ImageField(upload_to=upload_image_path_cake, null=True, blank=True)
-    retailer = models.ForeignKey(Retailer)
+    retailer = models.ForeignKey(Retailer,on_delete=models.CASCADE)
     size = models.DecimalField(decimal_places=1, max_digits=20, default=1.0)
     flavour = models.CharField(max_length=100)
 
@@ -49,7 +49,7 @@ class Bouquet(models.Model):
     description = models.TextField()
     price = models.DecimalField(decimal_places=2, max_digits=20, default=0.00)
     image = models.ImageField(upload_to=upload_image_path_bouquet, null=True, blank=True)
-    retailer = models.ForeignKey(Retailer)
+    retailer = models.ForeignKey(Retailer,on_delete=models.CASCADE)
 
 
     def __str__(self):
