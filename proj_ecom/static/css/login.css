@@ -2,7 +2,7 @@ html{
   height:100%;
 }
 body{
-  background-image:url("/proj_ecom/static/img/wrapbox.png");/*change in this line*/
+  background-image:url("static/img/wrapbox.png");/*change in this line*/
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Catarman;
