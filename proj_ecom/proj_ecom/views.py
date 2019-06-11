@@ -13,6 +13,8 @@ User=get_user_model()
 
 
 def homepage(request):
+    if request.POST:
+        return redirect("/products")
     return render(request,"get_started.html",{})
 
 
