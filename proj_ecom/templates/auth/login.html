@@ -1,17 +1,18 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
-	<title>
-		Login
-	</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="H:\Project\proj_ecomm\proj_ecom\static\css\login.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>
+    Login
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="H:\Project\proj_ecomm\proj_ecom\static\css\login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-	<!-- {% if bool %} -->
+  <!-- {% if bool %} -->
         <!-- <script type="text/javascript"> -->
             <!-- alert("Wrong Credentials") -->
         <!-- </script> -->
@@ -26,24 +27,87 @@
   <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
 </div>
 -->
-	<div class="box">
-		<form method="">
-	  		<div class="portion1">
-	  			<a href="#"><h1>Customer</h1></a>
-	  		</div>
-	 		<div class="portion2">
-	  			<a href="#"><h1>Retailer</h1></a>
-	  		</div>
-	  		<input type="text" name="password" value="" placeholder="First Name">
-	  		<input type="text" name="password" value="" placeholder="Last Name">
-      		<input type="text" name="password" value="" placeholder="Email Address">
-      		<input type="text" name="password" value="" placeholder="Contact">
-      		<input type="text" name="password" value="" placeholder="Password">
-      		<input type="text" name="password" value="" placeholder="User Name">
-      		<input type="text" name="password" value="" placeholder="Delivery Address">
-      		<button class="submit"><a href="/data">Submit</a></button>
-  		</form>
-  		I already have an account.<a href="#">Log In</a>
-	</div>
+  <div class="box1">
+    <div class="intbox1">
+      <form method="">
+          <div id="portion1">
+            <a onclick="myfunc1()">Customer</a>
+          </div>
+        <div id="portion2">
+            <a onclick="myfunc2()">Retailer</a>
+          </div>
+          <input type="text" name="firstname" value="" placeholder="First Name" size="40%">
+          <input type="text" name="lastname" value="" placeholder="Last Name" size="40%">
+            <input type="email" name="emailaddress" value="" placeholder="Email Address" size="85.75%">
+            <input type="text" name="contact" value="" placeholder="Contact" size="40%">
+            <input type="password" name="password" value="" placeholder="Password" size="40%">
+            <input type="text" name="username" value="" placeholder="User Name" size="85.75%">
+            <input type="text" name="deliveryadd" value="" placeholder="Delivery Address" size="85.75%">
+        </form>
+      <button type="submit"><a href="/data">SUBMIT</a></button>
+      </div>
+      <br>
+      I already have an account.<a onclick="myfunc3()">Log In</a>
+  </div>
+  <div class="box2">
+    <div class="intbox2">
+      <form method="">
+          <div id="portion1">
+            <a onclick="myfunc1()">Customer</a>
+          </div>
+        <div id="portion2">
+            <a onclick="myfunc2()">Retailer</a>
+          </div>
+          <input type="text" name="firstname" value="" placeholder="First Name" size="40%">
+          <input type="text" name="lastname" value="" placeholder="Last Name" size="40%">
+            <input type="email" name="emailaddress" value="" placeholder="Email Address" size="85.75%">
+            <input type="text" name="contact" value="" placeholder="Contact" size="40%">
+            <input type="password" name="password" value="" placeholder="Password" size="40%">
+            <input type="text" name="username" value="" placeholder="User Name" size="85.75%">
+            <input type="text" name="shopadd" value="" placeholder="Shop Address" size="85.75%">
+            <input type="text" name="shopadd" value="" placeholder="Aadhar Address" size="85.75%">
+        </form>
+      <button type="submit"><a href="/data">SUBMIT</a></button>
+      </div>
+      <br>
+      I already have an account.<a onclick="myfunc3()">Log In</a>
+  </div>
+  <div class="box3">
+    <div class="intbox3">
+      <form method="">
+          <div id="portion1">
+            <a onclick="myfunc1()">Customer</a>
+          </div>
+        <div id="portion2">
+            <a onclick="myfunc2()">Retailer</a>
+          </div>
+            <input type="text" name="username" value="" placeholder="User Name" size="50%">
+            <input type="password" name="password" value="" placeholder="Password" size="50%">
+        </form>
+      <button type="submit"><a href="/data">SUBMIT</a></button>
+      </div>
+      <br>
+      I already have an account.<a onclick="myfunc3()">Log In</a>
+  </div>
+<script>
+  var switch1=document.querySelector('.box1');
+  var switch2=document.querySelector('.box2');
+  var switch3=document.querySelector('.box3');
+  function myfunc1(){
+    switch2.classList.remove('show2');
+    switch3.classList.remove('show3');
+    switch1.classList.remove('show1');
+    }
+  function myfunc2(){
+    switch2.classList.add('show2');
+    switch1.classList.add('show1');
+    switch3.classList.remove('show3');
+  }
+  function myfunc3(){
+    switch3.classList.add('show3');
+    switch1.classList.add('show1');
+    switch2.classList.remove('show2');
+  }
+</script>
 </body>
 </html>
