@@ -1,0 +1,40 @@
+@font-face{
+	font-family:vanilla;
+	src:url("/static/fonts/vanillapersonal.ttf");
+}
+@font-face{
+	font-family:vanillab;
+	src:url("/static/fonts/vanillapersonal-bold.ttf");
+}
+html{
+	height:100%;
+}
+body{
+	background-image:url("https://images.unsplash.com/photo-1545608444-f045a6db6133?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80");
+	background-size:cover;
+	background-position:center;
+	background-repeat: no-repeat;
+}
+h1{
+	color:white;
+	font-size:10rem;
+	font-family: vanilla;
+}
+h3{
+	color:black;
+	font-size:4rem;
+	font-family: vanillab;
+}
+#content{
+	text-align:center;
+	padding-top:15%;
+}
+hr{
+	width:40%;
+	border-color:black;
+}
+.btn{
+	background-color: black;
+	color:white;
+	border:none;
+}

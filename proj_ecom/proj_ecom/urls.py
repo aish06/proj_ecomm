@@ -24,5 +24,5 @@ urlpatterns = [
     path('retailer_signup/', sign_ret_page),
     path('login/', login_page),
     path('', homepage),
-    path('products/',index)
+    path('products/',index),
 ]
