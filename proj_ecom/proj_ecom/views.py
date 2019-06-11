@@ -6,18 +6,20 @@ from customer_profile.models import Customer
 from retailer_profile.models import Retailer
 
 from product.models import Cake
-from product.models import Bouquet
 
 
 
 User=get_user_model()
 
+
+def homepage(request):
+    return render(request,"get_started.html",{})
+
+
 def index(request):
     cake_query=Cake.objects.all()[:5]
-    bouquet_query=Bouquet.objects.all()[:5]
     context={
         'cake':cake_query,
-        'bouquet':bouquet_query,
     }
     return render(request,"index.html",context)
 
