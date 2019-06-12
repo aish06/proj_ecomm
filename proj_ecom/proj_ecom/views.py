@@ -86,7 +86,7 @@ def sign_ret_page(request):
         name = request.POST.get("retailer_name")
         email = request.POST.get("retailer_email")
         username = request.POST.get("retailer_uname")
-        confirm_pass=request.POST.get("cnfpsw")
+        confirm_pass=request.POST.get("retailer_cnfpsw")
         password = request.POST.get("retailer_psw")
         phone = request.POST.get("retailer_phone")
         address=request.POST.get("retailer_address")
