@@ -7,7 +7,7 @@
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="{% static 'css/login.css %">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -27,7 +27,7 @@
   <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
 </div>
 -->
-  <div class="box1">
+  <div class="box1" id="myNav">
     <div class="intbox1">
       <form method="">
           <div id="portion1">
@@ -49,7 +49,7 @@
       <br>
       I already have an account.<a onclick="myfunc3()">Log In</a>
   </div>
-  <div class="box2">
+  <div class="box2" id="myNav">
     <div class="intbox2">
       <form method="">
           <div id="portion1">
@@ -72,7 +72,7 @@
       <br>
       I already have an account.<a onclick="myfunc3()">Log In</a>
   </div>
-  <div class="box3">
+  <div class="box3" id="myNav">
     <div class="intbox3">
       <form method="">
           <div id="portion1">
@@ -107,6 +107,13 @@
     switch3.classList.add('show3');
     switch1.classList.add('show1');
     switch2.classList.remove('show2');
+  }
+  function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
   }
 </script>
 </body>
