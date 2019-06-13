@@ -2,50 +2,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>
-		CustomerSignUp
-	</title>
+  <title>
+    CustomerSignUp
+  </title>
 </head>
 <body>
 
-	{% if uname1 %}
+  {% if uname1 %}
         <script type="text/javascript">
             alert("Username already taken")
         </script>
     {% endif %}
 
-	{% if email1 %}
+  {% if email1 %}
         <script type="text/javascript">
             alert("Email already taken")
         </script>
     {% endif %}
 
-	{% if pass1 %}
+  {% if pass1 %}
         <script type="text/javascript">
             alert("Passwords must match")
         </script>
     {% endif %}
 
-	{% if email2 %}
+  {% if email2 %}
         <script type="text/javascript">
             alert(".com not present in Email")
         </script>
     {% endif %}
-	<form method="POST">{% csrf_token %}
-		<label>Name:</label>
-		<input type="text" name="name">
-		<label>Username:</label>
-		<input type="text" name="uname">
-		<label>Email:</label>
-		<input type="email" name="email">
-		<label>Password:</label>
-		<input type="Password" name="psw">
-		<label>Confirm Password</label>
-		<input type="Password" name="cnfpsw">
-		<label>Phone-no:</label>
-		<input type="tel" name="phone">
-		<button type="submit" class="btn btn-default">Submit</button>
-	</form>
+  <form method="POST">{% csrf_token %}
+    <label>Name:</label>
+    <input type="text" name="name">
+    <label>Username:</label>
+    <input type="text" name="uname">
+    <label>Email:</label>
+    <input type="email" name="email">
+    <label>Password:</label>
+    <input type="Password" name="psw">
+    <label>Confirm Password</label>
+    <input type="Password" name="cnfpsw">
+    <label>Phone-no:</label>
+    <input type="tel" name="phone">
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
 </body>
 </html>
 -->
@@ -55,7 +55,7 @@
 <html>
 <head>
   <title>
-    Login
+    SIGNUP
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -79,31 +79,7 @@
   <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
 </div>
 -->
-	<!--{% if uname1 %}
-        <script type="text/javascript">
-            alert("Username already taken")
-        </script>
-    {% endif %}
-
-	{% if email1 %}
-        <script type="text/javascript">
-            alert("Email already taken")
-        </script>
-    {% endif %}
-
-	{% if pass1 %}
-        <script type="text/javascript">
-            alert("Passwords must match")
-        </script>
-    {% endif %}
-
-	{% if email2 %}
-        <script type="text/javascript">
-            alert(".com not present in Email")
-        </script>
-    {% endif %}-->
-  <div class="box1">
-    <div class="intbox1">
+  <div class="box1 show1">
       <form method="">
           <div id="portion1">
             <a onclick="myfunc1()">Customer</a>
@@ -119,13 +95,15 @@
             <input type="text" name="uname" value="" placeholder="User Name" size="85.75%">
             <input type="text" name="cnfpsw" value="" placeholder="Confirm Password" size="85.75%">
         </form>
+        <label class="container">CUSTOMER
+          <input type="checkbox" checked="checked" name="Customer">
+          <span class="checkmark"></span>
+        </label>
       <button type="submit"><a href="/data">SUBMIT</a></button>
-      </div>
       <br>
       I already have an account.<a href="/login">Log In</a>
   </div>
-  <div class="box2">
-    <div class="intbox2">
+  <div class="box2 show2">
       <form method="">
           <div id="portion1">
             <a onclick="myfunc1()">Customer</a>
@@ -144,22 +122,25 @@
             <input type="text" name="retailer_address" value="" placeholder="Shop Address" size="85.75%">
             <input type="text" name="retailer_aadhar" value="" placeholder="Aadhar Number" size="85.75%">
         </form>
+            <label class="container">RETAILER
+              <input type="checkbox" checked="checked" name="Customer">
+              <span class="checkmark"></span>
+            </label>
       <button type="submit"><a href="/data">SUBMIT</a></button>
-      </div>
       <br>
       I already have an account.<a href="/login">Log In</a>
   </div>
-  <!--<script>
+  <script>
   var switch1=document.querySelector('.box1');
   var switch2=document.querySelector('.box2');
   function myfunc1(){
-    switch2.classList.remove('show2');
+    switch2.classList.add('show2');
     switch1.classList.add('show1');
     }
   function myfunc2(){
-    switch2.classList.add('show2');
+    switch2.classList.remove('show2');
     switch1.classList.remove('show1');
   }
-</script>-->
+</script>
 </body>
 </html>
