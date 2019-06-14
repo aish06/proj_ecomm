@@ -12,11 +12,11 @@
 </head>
 <body>
 
-  <!-- {% if bool %} -->
-        <!-- <script type="text/javascript"> -->
+  {% if bool %}
+         <script type="text/javascript">
             <!-- alert("Wrong Credentials") -->
-        <!-- </script> -->
-    <!-- {% endif %} -->
+         </script>
+  {% endif %}
 
 <!-- The social media icon bar -->
 <!--<div class="icon-bar">
@@ -35,11 +35,11 @@
             <br>
       </form>
             <label class="container">CUSTOMER
-              <input type="radio" checked="checked" name="radio">
+              <input type="radio" checked="checked" name="radio" value="Cust"/>
               <span class="checkmark"></span>
             </label>
             <label class="container">RETAILER
-              <input type="radio" name="radio">
+              <input type="radio" name="radio" value="Ret"/>
               <span class="checkmark"></span>
             </label>
       <button type="submit"><a href="/data">SUBMIT</a></button>
