@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3b3cdb7-39b2-47c7-9e89-c2b0b161ac13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/customer_profile/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ecom/customer_profile/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/product/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/product/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/product/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/product/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/product/migrations/0002_auto_20190610_1412.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/product/migrations/0003_auto_20190610_1513.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/product/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/product/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/product/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/product/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/proj_ecom/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ecom/proj_ecom/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj_ecom/proj_ecom/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ecom/proj_ecom/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj_ecom/proj_ecom/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ecom/proj_ecom/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ecom/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ecom/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/retailer_profile/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ecom/retailer_profile/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ecom/templates/auth/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/templates/auth/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ecom/templates/auth/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,102 +32,81 @@
     <session id="1645519193">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="5" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="12" />
+          <entry key="html" value="16" />
           <entry key="png" value="3" />
-          <entry key="py" value="32" />
+          <entry key="py" value="41" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="12" />
+          <entry key="HTML" value="16" />
           <entry key="Image" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="32" />
+          <entry key="Python" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="38" />
-          <entry key="html" value="407" />
-          <entry key="py" value="3187" />
+          <entry key="html" value="563" />
+          <entry key="py" value="3649" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="38" />
-          <entry key="HTML" value="407" />
-          <entry key="Python" value="3187" />
+          <entry key="HTML" value="563" />
+          <entry key="Python" value="3649" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj_ecom/proj_ecom/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-              <folding>
-                <element signature="e#633#665#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/proj_ecom/proj_ecom/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="-1955">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
-                <marker date="1560281750083" expanded="true" signature="321:373" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj_ecom/templates/auth/login.html">
+        <entry file="file://$PROJECT_DIR$/proj_ecom/proj_ecom/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-800">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="527">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj_ecom/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/proj_ecom/cake/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="629">
-              <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj_ecom/product/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -120,23 +115,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj_ecom/templates/get_started.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj_ecom/retailer_profile/views.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj_ecom/customer_profile/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -145,13 +127,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj_ecom/static/img/output-onlinepngtools (3).png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/proj_ecom/retailer_profile/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj_ecom/static/img/output-onlinepngtools (4).png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/proj_ecom/proj_ecom/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#633#665#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proj_ecom/templates/auth/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proj_ecom/templates/auth/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-953">
+              <caret line="88" column="15" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -167,18 +181,20 @@
         <option value="$PROJECT_DIR$/proj_ecom/templates/auth/customer_signup.html" />
         <option value="$PROJECT_DIR$/proj_ecom/customer_profile/admin.py" />
         <option value="$PROJECT_DIR$/proj_ecom/retailer_profile/admin.py" />
-        <option value="$PROJECT_DIR$/proj_ecom/customer_profile/models.py" />
-        <option value="$PROJECT_DIR$/proj_ecom/templates/auth/login.html" />
-        <option value="$PROJECT_DIR$/proj_ecom/retailer_profile/models.py" />
         <option value="$PROJECT_DIR$/proj_ecom/templates/auth/retailer_signup.html" />
         <option value="$PROJECT_DIR$/proj_ecom/static/css/get_started.css" />
-        <option value="$PROJECT_DIR$/proj_ecom/proj_ecom/settings.py" />
         <option value="$PROJECT_DIR$/proj_ecom/cakes/models.py" />
         <option value="$PROJECT_DIR$/proj_ecom/product/models.py" />
         <option value="$PROJECT_DIR$/proj_ecom/templates/get_started.html" />
-        <option value="$PROJECT_DIR$/proj_ecom/proj_ecom/views.py" />
         <option value="$PROJECT_DIR$/proj_ecom/templates/index.html" />
         <option value="$PROJECT_DIR$/proj_ecom/proj_ecom/urls.py" />
+        <option value="$PROJECT_DIR$/proj_ecom/templates/auth/login.html" />
+        <option value="$PROJECT_DIR$/proj_ecom/retailer_profile/models.py" />
+        <option value="$PROJECT_DIR$/proj_ecom/templates/auth/signup.html" />
+        <option value="$PROJECT_DIR$/proj_ecom/customer_profile/models.py" />
+        <option value="$PROJECT_DIR$/proj_ecom/cake/models.py" />
+        <option value="$PROJECT_DIR$/proj_ecom/proj_ecom/views.py" />
+        <option value="$PROJECT_DIR$/proj_ecom/proj_ecom/settings.py" />
       </list>
     </option>
   </component>
@@ -193,6 +209,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,13 +226,13 @@
               <item name="proj_ecomm" type="b2602c69:ProjectViewProjectNode" />
               <item name="proj_ecomm" type="462c0819:PsiDirectoryNode" />
               <item name="proj_ecom" type="462c0819:PsiDirectoryNode" />
-              <item name="customer_profile" type="462c0819:PsiDirectoryNode" />
+              <item name="cake" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="proj_ecomm" type="b2602c69:ProjectViewProjectNode" />
               <item name="proj_ecomm" type="462c0819:PsiDirectoryNode" />
               <item name="proj_ecom" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="customer_profile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="proj_ecomm" type="b2602c69:ProjectViewProjectNode" />
@@ -263,7 +280,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,7 +323,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -359,48 +375,16 @@
     <entry file="file://$PROJECT_DIR$/proj_ecom/static/img/output-onlinepngtools (6).png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/templates/auth/retailer_signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/templates/auth/customer_signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ecom/templates/auth/retailer_signup.html" />
     <entry file="file://$PROJECT_DIR$/proj_ecom/cakes/views.py" />
     <entry file="file://$PROJECT_DIR$/proj_ecom/cakes/models.py" />
-    <entry file="file://$PROJECT_DIR$/proj_ecom/retailer_profile/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/proj_ecom/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/product/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/proj_ecom/customer_profile/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/customer_profile/models.py">
+    <entry file="file://$PROJECT_DIR$/proj_ecom/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="595">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -410,25 +394,9 @@
     <entry file="file://$PROJECT_DIR$/proj_ecom/static/img/output-onlinepngtools (4).png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/product/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ecom/templates/auth/customer_signup.html" />
     <entry file="file://$PROJECT_DIR$/proj_ecom/retailer_profile/views.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/templates/auth/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-800">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj_ecom/templates/get_started.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -437,30 +405,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ecom/product/models.py" />
+    <entry file="file://$PROJECT_DIR$/proj_ecom/product/views.py" />
     <entry file="file://$PROJECT_DIR$/proj_ecom/proj_ecom/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ecom/templates/auth/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ecom/proj_ecom/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ecom/cake/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ecom/customer_profile/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ecom/retailer_profile/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ecom/templates/auth/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-953">
+          <caret line="88" column="15" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/proj_ecom/proj_ecom/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="-1955">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
-            <marker date="1560281750083" expanded="true" signature="321:373" ph="..." />
           </folding>
         </state>
       </provider>

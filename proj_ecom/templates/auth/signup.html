@@ -64,6 +64,51 @@
 </head>
 <body>
 
+{% if uname1 %}
+        <script type="text/javascript">
+            alert("Username already taken")
+        </script>
+    {% endif %}
+
+  {% if email1 %}
+        <script type="text/javascript">
+            alert("Email already taken")
+        </script>
+    {% endif %}
+
+  {% if pass1 %}
+        <script type="text/javascript">
+            alert("Passwords must match")
+        </script>
+    {% endif %}
+
+  {% if email2 %}
+        <script type="text/javascript">
+            alert(".com not present in Email")
+        </script>
+    {% endif %}
+
+
+{% if gstno1 %}
+        <script type="text/javascript">
+            alert("GST no already exists")
+        </script>
+    {% endif %}
+
+
+{% if aadhar1 %}
+        <script type="text/javascript">
+            alert("Aadhar no already exists")
+        </script>
+    {% endif %}
+
+{% if category %}
+        <script type="text/javascript">
+            alert("Please select a category---Retailer/Customer)
+        </script>
+    {% endif %}
+
+
   <!-- {% if bool %} -->
         <!-- <script type="text/javascript"> -->
             <!-- alert("Wrong Credentials") -->
@@ -96,7 +141,7 @@
             <input type="text" name="cnfpsw" value="" placeholder="Confirm Password" size="85.75%">
         </form>
         <label class="container">CUSTOMER
-          <input type="checkbox" checked="checked" name="Customer">
+          <input type="checkbox" checked="checked" name="category" value="cust">
           <span class="checkmark"></span>
         </label>
       <button type="submit"><a href="/data">SUBMIT</a></button>
@@ -123,7 +168,7 @@
             <input type="text" name="retailer_aadhar" value="" placeholder="Aadhar Number" size="85.75%">
         </form>
             <label class="container">RETAILER
-              <input type="checkbox" checked="checked" name="Customer">
+              <input type="checkbox" checked="checked" name="category" value="ret">
               <span class="checkmark"></span>
             </label>
       <button type="submit"><a href="/data">SUBMIT</a></button>
