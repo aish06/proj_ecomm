@@ -125,7 +125,7 @@
 </div>
 -->
   <div class="box1 show1">
-      <form method="">
+      <form method="POST">{% csrf_token %}
           <div id="portion1">
             <a onclick="myfunc1()">Customer</a>
           </div>
@@ -144,12 +144,12 @@
           <input type="checkbox" checked="checked" name="category" value="cust">
           <span class="checkmark"></span>
         </label>
-      <button type="submit"><a href="/login">SUBMIT</a></button>
+      <button type="submit">SUBMIT</a></button>
       <br>
       I already have an account.<a href="/login">Log In</a>
   </div>
   <div class="box2 show2">
-      <form method="">
+      <form method="POST">{% csrf_token %}
           <div id="portion1">
             <a onclick="myfunc1()">Customer</a>
           </div>
@@ -171,7 +171,7 @@
               <input type="checkbox" checked="checked" name="category" value="ret">
               <span class="checkmark"></span>
             </label>
-      <button type="submit"><a href="/">SUBMIT</a></button>
+      <button type="submit">SUBMIT</a></button>
       <br>
       I already have an account.<a href="/login">Log In</a>
   </div>

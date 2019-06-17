@@ -29,11 +29,10 @@
 -->
   <div class="box3">
     <p>LOGIN</p>
-      <form method="">
+      <form method="POST">{% csrf_token %}
             <input type="text" name="uname" value="" placeholder="User Name" size="50%">
             <input type="password" name="psw" value="" placeholder="Password" size="50%">
             <br>
-      </form>
             <label class="container">CUSTOMER
               <input type="radio" checked="checked" name="radio" value="Cust"/>
               <span class="checkmark"></span>
@@ -42,7 +41,8 @@
               <input type="radio" name="radio" value="Ret"/>
               <span class="checkmark"></span>
             </label>
-      <button type="submit" class="btn btn-default">Submit</button>
+      <button type="submit">Submit</button>
+      </form>
       <br>
       Not a member yet? Register Here-<a href="/signup">Sign Up</a>
   </div>

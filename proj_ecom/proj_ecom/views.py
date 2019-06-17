@@ -285,13 +285,16 @@ def login_page(request):
         username=request.POST.get("uname")
         password=request.POST.get("psw")
         category=request.POST.get("radio")
+        print(username)
+        print(password)
+        print(category)
         user=authenticate(request,username=username,password=password)
         if user is not None:
             login(request,user)
             if category=="Cust":
-                return redirect('/products')
+                return redirect("/products")
             else:
-                return redirect('/')
+                return redirect("/")
         else:
             #wrong credentials
             context = {
