@@ -47,14 +47,14 @@ li{
 }
 .left{
 	background-color: #687ef9;
-	position: relative;
-	top: 10px;
-	height: 30em;
-	  overflow-x:hidden;
-        overflow-y:auto;
+	position: fixed;
+	top: 112px;
+	height: 31.5em;
+	overflow-x:hidden;
+    overflow-y:auto;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
-
+	width:25%;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -93,6 +93,7 @@ li{
     width: 50px;
     position: relative;
     top: 40px;
+    left:10px;
 
   }
 
@@ -107,10 +108,6 @@ li{
 	top: 30px;
 	left: 10px
 }
-.box{
-	
-	
-}
 .item{
 	background-color: #cfd6ff;
 	height:40px;
@@ -124,12 +121,15 @@ li{
 .right{
     border:1px solid white;
     border-radius: 2px; 
-    height: 30em;
+    height: 31em;
     position: absolute;
+    overflow-x:hidden;
+    overflow-y:auto;
     top: 115px;
     width: 73%;
     left: 26%;
-    border-radius:15px;
+    border-bottom-left-radius:15px;
+    border-top-left-radius: 15px;
 -moz-box-shadow: 0 0 5px 5px #888;
 -webkit-box-shadow: 0 0 5px 5px#888;
 box-shadow: 0 0 5px 5px #888;
@@ -159,8 +159,26 @@ box-shadow: 0 0 5px 5px #888;
 
 .items{
 	display: inline-block;
+	position: relative;
+	left:25px;
 	margin-left:2.5vh;
 	margin-right:2.5vh;
 	border:1px solid #eee;
 	width:150px;
+}
+h1{
+	position: relative;
+	left: 10px;
+	margin-left: 25px;
+}
+a{
+	position: relative;
+	/*top:40px;*/
+	float: right;
+	right:7vh;
+	/*text-decoration: none;*/
+	outline:none;
+	color:black;
+	top:1vh;
+
 }
