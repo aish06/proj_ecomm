@@ -153,7 +153,7 @@ def index(request):
         'bouquet':bouquet_query,
         'watch':watch_query,
         'chocolate':chocolate_query,
-        'card':card_query
+        'card':card_query,
     }
     return render(request,"index.html",context)
 
@@ -278,28 +278,22 @@ def index(request):
 #     return render(request, "auth/retailer_signup.html", context)
 
 def login_page(request):
-    context={
-        "bool":False
-    }
+    context={"b":False}
     if request.POST:
         username=request.POST.get("uname")
         password=request.POST.get("psw")
-        category=request.POST.get("radio")
-        print(username)
-        print(password)
-        print(category)
         user=authenticate(request,username=username,password=password)
         if user is not None:
-            login(request,user)
-            if category=="Cust":
+            c = Customer.objects.filter(username=username)
+            print(c)
+            login(request, user)
+            if c!=[]:
                 return redirect("/products")
             else:
                 return redirect("/")
         else:
             #wrong credentials
-            context = {
-                "bool": True
-            }
+            context={"b":True}
     return render(request,"auth/login.html",context)
 
 
