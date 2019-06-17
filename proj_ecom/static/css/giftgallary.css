@@ -156,3 +156,11 @@ box-shadow: 0 0 5px 5px #888;
 }
 .col-3 {width: 25%;}
 .col-9 {width: 75%;}
+
+.items{
+	display: inline-block;
+	margin-left:2.5vh;
+	margin-right:2.5vh;
+	border:1px solid #eee;
+	width:150px;
+}
