@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     'customer_profile',
     'retailer_profile',
     'cake',
+    'Watches',
+    'cards',
+    'chocolates',
+    'bouquet'
 ]
 
 MIDDLEWARE = [

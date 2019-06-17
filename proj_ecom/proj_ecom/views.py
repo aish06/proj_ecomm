@@ -7,6 +7,12 @@ from retailer_profile.models import Retailer
 
 from cake.models import Cake
 
+from bouquet.models import Bouquet
+from cards.models import Card
+from chocolates.models import Chocolate
+from Watches.models import Watch
+
+
 
 
 
@@ -56,8 +62,7 @@ def signup_page(request):
             else:
                 new_user = User.objects.create_user(username=username, email=email, password=password)
                 cust_profile = Customer(
-                    firstname=firstname,
-                    lastname=lastname,
+                    name=firstname+" "+lastname,
                     email=email,
                     username=username,
                     phone=phone,
@@ -112,8 +117,7 @@ def signup_page(request):
             else:
                 new_user = User.objects.create_user(username=username, email=email, password=password)
                 retail_profile = Retailer(
-                    firstname=firstname,
-                    lastname=lastname,
+                    name=firstname + " " + lastname,
                     email=email,
                     username=username,
                     phone=phone,
@@ -139,8 +143,17 @@ def homepage(request):
 
 def index(request):
     cake_query=Cake.objects.all()[:5]
+    bouquet_query=Bouquet.objects.all()[:5]
+    watch_query=Watch.objects.all()[:5]
+    chocolate_query=Chocolate.objects.all()[:5]
+    card_query=Card.objects.all()[:5]
+
     context={
         'cake':cake_query,
+        'bouquet':bouquet_query,
+        'watch':watch_query,
+        'chocolate':chocolate_query,
+        'card':card_query
     }
     return render(request,"index.html",context)
 
@@ -276,7 +289,7 @@ def login_page(request):
         if user is not None:
             login(request,user)
             if category=="Cust":
-                return redirect('/index')
+                return redirect('/products')
             else:
                 return redirect('/')
         else:
