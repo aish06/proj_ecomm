@@ -287,7 +287,7 @@ def login_page(request):
             c = Customer.objects.filter(username=username)
             print(c)
             login(request, user)
-            if c!=[]:
+            if c.count()!=0:
                 return redirect("/products")
             else:
                 return redirect("/")
