@@ -18,10 +18,21 @@ from django.urls import path
 
 from .views import index,login_page,homepage,signup_page
 
+from bouquet.views import bouquet_list_view
+from cake.views import cake_list_view
+from cards.views import card_list_view
+from chocolates.views import chocolate_list_view
+from Watches.views import watch_list_view
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('signup/', signup_page),
     path('login/', login_page),
     path('', homepage),
     path('products/',index),
+    path('bouquet/', bouquet_list_view),
+    path('cake/', cake_list_view),
+    path('chocolate/', chocolate_list_view),
+    path('watch/', watch_list_view),
+    path('card/',card_list_view ),
 ]
