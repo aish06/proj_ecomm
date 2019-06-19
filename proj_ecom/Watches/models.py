@@ -34,7 +34,6 @@ class Watch(models.Model):
     price = models.DecimalField(decimal_places=2, max_digits=20, default=0.00)
     image = models.ImageField(upload_to=upload_image_path, null=True, blank=True)
     retailer = models.ForeignKey(Retailer, on_delete=models.CASCADE)
-    category=models.CharField(max_length=120)
     type=models.CharField(max_length=120)
     brand=models.CharField(max_length=120)
 
