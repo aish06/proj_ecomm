@@ -92,9 +92,9 @@
 	<div class="col-6">
 		<div class="right">
 			<div class="cakes"><h1>Cakes</h1>
-				{% for obj in cake_query %}
+				{% for obj in cake %}
 				<div class=items>
-					<img src=""{{obj.image.url}} width="100%"/>
+					<img src='/media/{{obj.image}}' width="100%"/>
 					<h3>{{obj.flavour}}</h3>
 					<p>{{obj.price}}</p>
 					<p>{{obj.description}}</p>
