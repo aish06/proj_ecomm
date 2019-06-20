@@ -21,11 +21,12 @@ from django.conf.urls.static import static
 
 from .views import index,login_page,homepage,signup_page
 
-from bouquet.views import bouquet_list_view
-from cake.views import cake_list_view
-from cards.views import card_list_view
-from chocolates.views import chocolate_list_view
-from Watches.views import watch_list_view
+
+from bouquet.views import bouquet_list_view,bouquet_detail_view
+from cake.views import cake_list_view,cake_detail_view
+from cards.views import card_list_view,card_detail_view
+from chocolates.views import chocolate_list_view,chocolate_detail_view
+from Watches.views import watch_list_view,watch_detail_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -38,6 +39,11 @@ urlpatterns = [
     path('chocolate/', chocolate_list_view),
     path('watch/', watch_list_view),
     path('card/',card_list_view ),
+    path('card/<int:pk>/', card_detail_view),
+    path('bouquet/<int:pk>/',bouquet_detail_view),
+    path('cake/<int:pk>/',cake_detail_view),
+    path('watch/<int:pk>/',watch_detail_view),
+    path('chocolate/<int:pk>/',chocolate_detail_view),
 ]
 
 if settings.DEBUG:
