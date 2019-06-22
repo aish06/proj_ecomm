@@ -1,3 +1,6 @@
+html{
+	height: 100%;
+}
 body{
 	display: block;
 	margin: 0;
@@ -8,34 +11,40 @@ body{
 	color: white;
 	background:#4747e4;
 }
-.img2
+.header .img2 a
 {
 	position: absolute;
-	right: 1%;
-	top:1%;
-	color: black;
+	color:white;
+	right: 1.5%;
+	/*float:right;*/
+	top:3%;
+	font-size: 1.5em;
+	/*color: white !important;*/
+	font-family: 'Lobster';
 }
 .img1{
 	position: absolute;
 	left: 1%;
-	top: 25px;
+	top: 2%;
 }
-.header>p
+.header>a
+
 {
-	color: white;
+	color: #ffffff;
 	font-family: 'Lobster';
 	font-size: 2em;
 	position: absolute;
-	top: 10px;
-	left: 8%;
+	top: 30px;
+	left: 6%;
+	width:200px;
 }
-.signup{
+/*.signup{
 	color: white;
 	font-family: 'Lobster';
 	font-size: 1.5em;
 	text-decoration: none;
 	outline: none;
-}
+}*/
 .list{
 	position: absolute;
 	right:1%;
@@ -93,16 +102,17 @@ li{
     left: 100px;
     top: 10px;
   }
-  .circle1 {
-  	float: left;
+.Categories .circle1 {
+  	/*float: left;*/
     border:3px solid white;    
     height: 50px;
     border-radius:50%;
-    width: 50px;
-    position: relative;
+    /*width: 50px;*/
+    /*padding:10px;*/
+    position: absolute;
     top: 40px;
-    left:10px;
-
+    left:15px;
+    /*left:10px;*/
   }
 
 .category
@@ -110,20 +120,27 @@ li{
 	position: relative;
 	top: 10px;
 }
-.categories
+.Categories
 {
 	position: relative;
 	top: 30px;
-	left: 10px
+	/*padding:5px;*/
+	margin-bottom: 20px;
+	/*left: 10px;*/
+
 }
 .item{
 	background-color: #cfd6ff;
 	height:40px;
 	width: 74%;
-	 position: relative; 
+	position: relative; 
 	top: 45px;
     left: 24%;
+    /*text-align: center;*/
+    /*padding-top:10px;*/
+    /*padding-bottom: 10px;*/
 	border-radius: 12px;
+	margin:10px 0;
 
 }
 .right{
@@ -143,15 +160,14 @@ li{
 box-shadow: 0 0 5px 5px #888;
 }
 
-.item>p{
+.item>a{
 	color: blue;
-	position: relative;
+	position: absolute;
 	left: 6%;
+	/*text-align: center*/
 	top: 8px;
 	font-size: 24px;
 	font-family: 'Lobster';
-	
-
 }
 .left>p{
 	font-size: 2em;
@@ -173,6 +189,15 @@ box-shadow: 0 0 5px 5px #888;
 	margin-right:2.5vh;
 	border:1px solid #eee;
 	width:150px;
+	min-height:15px;
+	transition:1s;
+	font-family: 'Lobster';
+	/*border:2px solid black;*/
+	border:none;
+	background-color: #cdcdcd;
+}
+.items:hover{
+	box-shadow: 0 0 50px rgba(0, 0,0,.5);
 }
 h1{
 	position: relative;
@@ -186,7 +211,7 @@ a{
 	right:7vh;
 	text-decoration: none;
 	outline:none;
-	color:black;
+	/*color:white;*/
 	top:1vh;
 }
 
@@ -211,4 +236,20 @@ a{
     opacity: 0;
     visibility: hidden;
   }
+}
+.items h3,.items p{
+	text-align: center
+
+}
+.checked {
+  color: orange;
+}
+.items span{
+	position: relative;
+	left:20%;
+	/*right: 25%;*/
+	/*align-content: center;*/
+}.cards h1,.bouquets h1,.cakes h1,.chocolates h1,.cakes h1{
+	color:blue;
+	font-family: 'Lobster';
 }
