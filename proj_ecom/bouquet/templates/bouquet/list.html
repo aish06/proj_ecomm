@@ -9,18 +9,20 @@
 	<title>gifts</title>
 </head>
 <body>
+	<div class="loader">
+		<img src="https://static1.squarespace.com/static/5344a472e4b092b8f017d821/5435b0dbe4b03e07f7965d16/563f0415e4b030455141f9aa/1556195026201/11_8---Little-Loader.gif?format=1500w">
+	</div>
 <div class="header">
 	<div class="img2">
-	 <a href="/signup"><img src="{% static 'img/icons8-customer-40.png' %}"></a>
+	 <a href="/signup"><span class="signup">SignUp<img src="{% static 'img/icons8-customer-40.png' %}"></span></a>
 	</div>
 	  <div class="list">
 		  <li>Home</li>
 		  <li>Stores</li>
-		  <li>Wrapping</li>
 		  <li>About</li>
 		  <li>Contacts</li>
 	  </div>
-	<p>Gift Gallery......</p>
+	<p><a href="/products">Gift Gallery......</a></p>
 	<div class="img1">
 	   <img src="{% static 'img/gift-box (4).png' %}">
     </div>
@@ -33,39 +35,37 @@
 			</div>
         <p>Categories</p>
       <div class="Categories">
-          
             	<div class="circle1">
                 	<img src="{% static 'img/output-onlinepngtools (1).png' %}"> 
                </div>
              <div class="item">
-             	<p>Cakes</p>
+             	<p><a href="/cake">Cakes</a></p>
              </div>
-      
 		</div>
 		<div class="Categories">
             	<div class="circle1">
                 	<img src="{% static 'img/output-onlinepngtools (2).png' %}"> 
                </div>
              <div class="item">
-             	<p>Candies</p>
+             	<p><a href="/chocolate">Chocolates</a></p>
              </div>
 		</div>
 		<div class="Categories">
-          
             	<div class="circle1">
                 	<img src="{% static 'img/output-onlinepngtools (3).png' %}"> 
                </div>
              <div class="item">
-             	<p>Chocolates</p>
+             	<p><a href="/watch">Watches</a></p>
              </div>
 		</div>
+
 		<div class="Categories">
           
             	<div class="circle1">
                 	<img src="{% static 'img/output-onlinepngtools (4).png' %}"> 
                </div>
              <div class="item">
-             	<p>donuts</p>
+             	<p><a href="/bouquet">Bouquets</a></p>
              </div>
 		</div>
 		<div class="Categories">
@@ -74,23 +74,68 @@
                 	<img src="{% static 'img/output-onlinepngtools (5).png' %}"> 
                </div>
              <div class="item">
-             	<p>Flowers</p>
+             	<p><a href="/card">Cards</a></p>
              </div>
 		</div>
-		<div class="Categories">
+<!-- 		<div class="Categories">
             	<div class="circle1">
                 	<img src="{% static 'img/output-onlinepngtools (6).png' %}"> 
                	</div>
              <div class="item">
              	<p>Gifts</p>
              </div>
-		</div>
+		</div> -->
 	</div>
 	</div>
 	<div class="col-6">
 		<div class="right">
+			<div class="bouquets"><h1>Bouquets</h1>
+				{% for obj in bouquet %}
+				<div class=items>
+					<img src='/media/{{obj.image}}' width="100%"/>
+					<h3>{{obj.description}}</h3>
+					<p>{{obj.price}}</p>
+					<p>{{obj.bouquet_id}}</p>
+				</div>
+				{% endfor %}
+				<!--<div class=items>-->
+					<!--<img src="https://cdn.igp.com/f_auto,q_auto,t_prodm/products/p-chocolate-gems-cake-1-kg&#45;&#45;33890-m.jpg" width="100%">-->
+					<!--<h3>Vanilla Blast</h3>-->
+					<!--<p>Rs.100</p>-->
+					<!--<p>Rating-5</p>-->
+				<!--</div>-->
+				<!--<div class=items>-->
+					<!--<img src="https://cdn.igp.com/f_auto,q_auto,t_prodm/products/p-chocolate-gems-cake-1-kg&#45;&#45;33890-m.jpg" width="100%">-->
+					<!--<h3>Vanilla Blast</h3>-->
+					<!--<p>Rs.100</p>-->
+					<!--<p>Rating-5</p>-->
+				<!--</div>-->
+				<!--<div class=items>-->
+					<!--<img src="https://cdn.igp.com/f_auto,q_auto,t_prodm/products/p-chocolate-gems-cake-1-kg&#45;&#45;33890-m.jpg" width="100%">-->
+					<!--<h3>Vanilla Blast</h3>-->
+					<!--<p>Rs.100</p>-->
+					<!--<p>Rating-5</p>-->
+				<!--</div>-->
+				<!--<div class=items>-->
+					<!--<img src="https://cdn.igp.com/f_auto,q_auto,t_prodm/products/p-chocolate-gems-cake-1-kg&#45;&#45;33890-m.jpg" width="100%">-->
+					<!--<h3>Vanilla Blast</h3>-->
+					<!--<p>Rs.100</p>-->
+					<!--<p>Rating-5</p>-->
+				<!--</div>-->
+				<a href="/indicake">View More</a>
+			</div>
+			</div>
 		</div>
 	</div>
-</div>
+<script>
+ // window.addEventListener("load",function(){
+ // 	const loader=document.querySelector(".loader");
+ // 	loader.className+=" hidden";
+ // });
+ setInterval(function(){
+ 	const loader=document.querySelector(".loader");
+ 	loader.className+=" hidden";
+ },3000);
+</script>
 </body>
 </html>

@@ -1,27 +1,55 @@
-{% load static %}
+<!-- {% load static %} -->
 <!DOCTYPE html>
 <html>
 <head>
 	<title>
 		Get Started!!
 	</title>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/get_started.css' %}">
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div id="content">
-					<h1>Boulevard Avenue</h1>
-					<h3>Gifting Heaven!!</h3>
-					<hr>
-					<a href="/products"><button class="btn btn-default" type="submit">Get Started <i class="fa fa-check" aria-hidden="true"></i></button></a>
-				</div>
-			</div>
-		</div>
-	</div>
+	<!-- <div class="count-particles"> -->
+<div class="container">
+    <!-- <div class="row"> -->
+      <!-- <div class="col-lg-12"> -->
+        <div class="content">
+          <p>Boulevard Avenue</p>
+          <h2>Gifting Heaven!!</h2>
+          <hr>
+          <a href="/products"><button class="btn btn-default" type="submit">Get Started <i class="fa fa-check" aria-hidden="true"></i></button></a>
+        </div>
+      <!-- </div> -->
+    <!-- </div> -->
+</div>
+  <!-- <span class="js-count-particles"><u>PROJECT QUIZ</u></span>
+  	<div class="option">
+  		<a href="#" class="myButton">Register</a>
+  		<a href="#" class="myButton">Login</a>
+	</div> -->
+<!-- </div>  -->
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+<!-- scripts -->
+<script src="particles.js"></script>
+<script src="app.js"></script>
+
+<!-- stats.js -->
+<script src="stats.js"></script>
+<!-- <script>
+ // window.addEventListener("load",function(){
+ // 	const loader=document.querySelector(".loader");
+ // 	loader.className+=" hidden";
+ // });
+ setInterval(function(){
+ 	const loader=document.querySelector(".loader");
+ 	loader.className+=" hidden";
+ },3000);
+</script> -->
 </body>
 </html>
