@@ -2,7 +2,8 @@ html{
   height:100%;
 }
 body{
-  background-image:url("/static/img/wrapbox.png");/*change in this line*/
+  background-image: radial-gradient(circle,rgba(0,0,255,.2),rgba(0,0,255,.6));
+  /*background-image:url("/static/img/wrapbox.png");change in this line*/
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Catarman;
@@ -13,13 +14,18 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   margin:8% auto;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   border-radius: 10px;
   text-align:center;
   width:50%;
   color:black;
   font-size:1em;
   box-shadow:2px 2px 20px 2px black;
+  transition: .5s;
+}
+.box1:hover,.box2:hover{
+  box-shadow: 0 0 20px #cdcdcd;
+  /*transition: */
 }
 #portion1{
   width:40%;
@@ -57,6 +63,8 @@ input{
 }
 input:focus{
   background-color:silver;
+/*  outline:none;
+  text-decoration: none;*/
 }
 ::placeholder{
   padding-left:1%;
