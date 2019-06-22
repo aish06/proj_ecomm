@@ -9,7 +9,8 @@ body{
 {
 	height: 100px;
 	color: white;
-	background:#4747e4;
+	/*background:#4747e4;*/
+	background-image: linear-gradient(to right, rgba(0,0,255,0.2),rgba(0,0,255,.6));
 }
 .header .img2 a
 {
@@ -63,7 +64,9 @@ li{
   display: table;
 }
 .left{
-	background-color: #687ef9;
+	background-image: linear-gradient(to right, rgba(0,0,255,0.2),rgba(0,0,255,.6));
+	/*background: linear-gradient(to bottom left, cyan 50%, palegoldenrod 50%);*/
+	/*background-color: #687ef9;*/
 	position: fixed;
 	top: 112px;
 	height: 31.5em;
