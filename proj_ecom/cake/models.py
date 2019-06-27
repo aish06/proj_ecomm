@@ -38,6 +38,9 @@ class Cake(models.Model):
     size = models.DecimalField(decimal_places=1, max_digits=20, default=1.0)
     flavour = models.CharField(max_length=100)
 
+
+    objects=ProductManager()
+
     def __str__(self):
         return self.cake_id
 
