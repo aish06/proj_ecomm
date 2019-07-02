@@ -14,22 +14,14 @@ def card_list_view(request):
 
 
 def card_detail_view(request,pk=None,*args,**kwargs):
-    # instance=Product.objects.get(pk=pk)
-    #instance=get_object_or_404(Product,pk=pk)
-    # try:
-    #     instance=Product.objects.get(id=pk)
-    # except Product.DoesNotExist:
-    #     print("no product here")
-    #     raise Http404("Product does not exist")
-    # except:
-    #     print("huh?")
-    instance=Card.objects.get_by_id(pk)
+    # print(args)
+    # print(kwargs)
+    #instance = Cake.objects.get(pk=pk)
+    instance=get_object_or_404(Card,pk=pk)
     if instance is None:
-        raise Http404("Card does not exist")
-
-
-    context={
+        raise Http404("Product does not exist")
+    context = {
         'object':instance
     }
-    return render(request,"card/detail.html",context)
+    return render(request, "card/detail.html", context)
 

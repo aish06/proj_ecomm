@@ -14,22 +14,14 @@ def chocolate_list_view(request):
 
 
 def chocolate_detail_view(request,pk=None,*args,**kwargs):
-    # instance=Product.objects.get(pk=pk)
-    #instance=get_object_or_404(Product,pk=pk)
-    # try:
-    #     instance=Product.objects.get(id=pk)
-    # except Product.DoesNotExist:
-    #     print("no product here")
-    #     raise Http404("Product does not exist")
-    # except:
-    #     print("huh?")
-    instance=Chocolate.objects.get_by_id(pk)
+    # print(args)
+    # print(kwargs)
+    #instance = Cake.objects.get(pk=pk)
+    instance=get_object_or_404(Chocolate,pk=pk)
     if instance is None:
-        raise Http404("Chocolate does not exist")
-
-
-    context={
+        raise Http404("Product does not exist")
+    context = {
         'object':instance
     }
-    return render(request,"chocolate/detail.html",context)
+    return render(request, "chocolate/detail.html", context)
 

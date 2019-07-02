@@ -90,9 +90,9 @@
 	<div class="col-6">
 		<div class="right">
 			<div class="watches"><h1>Watches</h1>
-				{% for obj in watch %}
+				{% for obj in object_list %}
 				<div class=items>
-					<img src='/media/{{obj.image}}' width="100%"/>
+					<a href="{{obj.pk}}"><img src='/media/{{obj.image}}' width="100%"/></a>
 					<h3>{{obj.description}}</h3>
 					<p>{{obj.price}}</p>
 					<p>{{obj.brand}}</p>
