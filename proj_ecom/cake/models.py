@@ -30,7 +30,7 @@ class ProductManager(models.Manager):
 
 
 class Cake(models.Model):
-    cake_id = models.CharField(max_length=120)
+    cake_id = models.CharField(max_length=120,unique=True)
     description = models.TextField()
     price = models.DecimalField(decimal_places=2, max_digits=20, default=0.00)
     image = models.ImageField(upload_to=upload_image_path, null=True, blank=True)

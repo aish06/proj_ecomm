@@ -21,8 +21,6 @@ def cake_detail_view(request,pk=None,*args,**kwargs):
     instance=get_object_or_404(Cake,pk=pk)
     if instance is None:
         raise Http404("Product does not exist")
-
-
     context = {
         'object':instance
     }

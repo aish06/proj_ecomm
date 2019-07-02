@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a3b3cdb7-39b2-47c7-9e89-c2b0b161ac13" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/cake/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ecom/cake/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj_ecom/cake/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ecom/cake/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ecom/cake/templates/cake/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ecom/cake/templates/cake/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/cake/templates/cake/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ecom/cake/templates/cake/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj_ecom/cake/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ecom/cake/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_ecom/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ecom/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,9 +68,10 @@
     <session id="-855149955">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="6" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="2" />
@@ -76,19 +79,19 @@
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.71" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="436" />
-          <entry key="py" value="1698" />
+          <entry key="html" value="493" />
+          <entry key="py" value="2044" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="436" />
-          <entry key="Python" value="1698" />
+          <entry key="HTML" value="493" />
+          <entry key="Python" value="2044" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -96,7 +99,7 @@
           <entry key="css" value="1" />
           <entry key="html" value="20" />
           <entry key="jpg" value="1" />
-          <entry key="py" value="61" />
+          <entry key="py" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -104,30 +107,18 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="20" />
           <entry key="Image" value="1" />
-          <entry key="Python" value="61" />
+          <entry key="Python" value="64" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj_ecom/proj_ecom/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/proj_ecom/proj_ecom/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+            <state relative-caret-position="390">
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
               <folding>
                 <element signature="e#633#665#0" expanded="true" />
               </folding>
@@ -138,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj_ecom/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="95" column="46" selection-start-line="95" selection-end-line="96" />
+            <state relative-caret-position="1683">
+              <caret line="99" column="60" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -147,8 +138,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj_ecom/cake/templates/cake/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="322">
+              <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proj_ecom/cards/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,8 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj_ecom/cards/templates/card/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="10" lean-forward="true" selection-end-line="95" selection-end-column="4" />
+            <state relative-caret-position="1462">
+              <caret line="86" column="18" lean-forward="true" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -167,15 +170,15 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj_ecom/cake/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="459">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
-                <marker date="1561636405685" expanded="true" signature="332:334" ph="..." />
-                <marker date="1561636405685" expanded="true" signature="425:426" ph="..." />
+                <marker date="1562086666618" expanded="true" signature="333:334" ph="..." />
+                <marker date="1562086666618" expanded="true" signature="425:426" ph="..." />
               </folding>
             </state>
           </provider>
@@ -184,10 +187,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj_ecom/cake/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+            <state relative-caret-position="339">
+              <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+                <marker date="1562086507538" expanded="true" signature="1274:1280" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proj_ecom/cards/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proj_ecom/cake/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1561996160461" expanded="true" signature="95:174" ph="..." />
               </folding>
             </state>
           </provider>
@@ -224,7 +253,6 @@
         <option value="$PROJECT_DIR$/proj_ecom/templates/auth/login.html" />
         <option value="$PROJECT_DIR$/proj_ecom/proj_ecom/views.py" />
         <option value="$PROJECT_DIR$/proj_ecom/bouquet/admin.py" />
-        <option value="$PROJECT_DIR$/proj_ecom/cake/admin.py" />
         <option value="$PROJECT_DIR$/proj_ecom/cards/admin.py" />
         <option value="$PROJECT_DIR$/proj_ecom/chocolates/admin.py" />
         <option value="$PROJECT_DIR$/proj_ecom/Watches/admin.py" />
@@ -237,17 +265,18 @@
         <option value="$PROJECT_DIR$/proj_ecom/chocolates/views.py" />
         <option value="$PROJECT_DIR$/proj_ecom/Watches/views.py" />
         <option value="$PROJECT_DIR$/proj_ecom/proj_ecom/settings.py" />
-        <option value="$PROJECT_DIR$/proj_ecom/templates/index.html" />
         <option value="$PROJECT_DIR$/proj_ecom/Watches/models.py" />
-        <option value="$PROJECT_DIR$/proj_ecom/cake/templates/cake/list.html" />
-        <option value="$PROJECT_DIR$/proj_ecom/proj_ecom/urls.py" />
         <option value="$PROJECT_DIR$/proj_ecom/cake/templates/cake/detail.html" />
-        <option value="$PROJECT_DIR$/proj_ecom/cake/views.py" />
+        <option value="$PROJECT_DIR$/proj_ecom/cake/admin.py" />
+        <option value="$PROJECT_DIR$/proj_ecom/templates/index.html" />
         <option value="$PROJECT_DIR$/proj_ecom/cake/models.py" />
+        <option value="$PROJECT_DIR$/proj_ecom/cake/templates/cake/list.html" />
+        <option value="$PROJECT_DIR$/proj_ecom/cake/views.py" />
+        <option value="$PROJECT_DIR$/proj_ecom/proj_ecom/urls.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="211" />
     <option name="y" value="21" />
     <option name="width" value="646" />
@@ -296,6 +325,12 @@
               <item name="proj_ecomm" type="b2602c69:ProjectViewProjectNode" />
               <item name="proj_ecomm" type="462c0819:PsiDirectoryNode" />
               <item name="proj_ecom" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proj_ecomm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proj_ecomm" type="462c0819:PsiDirectoryNode" />
+              <item name="proj_ecom" type="462c0819:PsiDirectoryNode" />
               <item name="proj_ecom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -312,7 +347,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ecommerce project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -349,10 +384,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15699404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1688988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -459,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/cake/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proj_ecom/cards/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -530,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/cards/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proj_ecom/Watches/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -565,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/cards/templates/card/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" lean-forward="true" selection-end-line="95" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proj_ecom/bouquet/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -579,23 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/cards/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proj_ecom/customer_profile/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,20 +610,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/proj_ecom/urls.py">
+    <entry file="file://$PROJECT_DIR$/proj_ecom/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        <state relative-caret-position="1683">
+          <caret line="99" column="60" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ecom/cards/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
-            <element signature="e#633#665#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/proj_ecom/cards/templates/card/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="95" column="46" selection-start-line="95" selection-end-line="96" />
+        <state relative-caret-position="1462">
+          <caret line="86" column="18" lean-forward="true" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ecom/cake/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1561996160461" expanded="true" signature="95:174" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ecom/cards/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -631,29 +660,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/proj_ecom/cake/templates/cake/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ecom/cake/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="322">
+          <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj_ecom/cake/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
-            <marker date="1561636405685" expanded="true" signature="332:334" ph="..." />
-            <marker date="1561636405685" expanded="true" signature="425:426" ph="..." />
+            <marker date="1562086666618" expanded="true" signature="333:334" ph="..." />
+            <marker date="1562086666618" expanded="true" signature="425:426" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ecom/cake/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1562086507538" expanded="true" signature="1274:1280" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ecom/proj_ecom/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
           </folding>
         </state>
       </provider>
