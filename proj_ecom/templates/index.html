@@ -93,7 +93,7 @@
 			<div class="cakes"><h1>Cakes</h1>
 				{% for obj in cake %}
 				<div class=items>
-					<img src='/media/{{obj.image}}' width="100%" height="140px"/>
+					<a href="/cake/{{obj.pk}}"><img src='/media/{{obj.image}}' width="100%"/></a>
 					<h3>{{obj.flavour}}</h3>
 					<p>Rs.{{obj.price}}</p>
 					<!-- <p>{{obj.description}}</p> -->
@@ -128,12 +128,12 @@
 					<!--<p>Rs.100</p>-->
 					<!--<p>Rating-5</p>-->
 				<!--</div>-->
-				<a href="/indicake">View More</a>
+				<a href="/cake">View More</a>
 			</div>
 			<div class="chocolates"><h1>Chocolates</h1>
 				{% for obj in chocolate %}
 				<div class=items>
-					<img src='/media/{{obj.image}}' width="100%" height="140px"/>
+					<a href="/chocolate/{{obj.pk}}"><img src='/media/{{obj.image}}' width="100%"/></a>
 					<!-- <h3>{{obj.description}}</h3> -->
 					<p>Rs.{{obj.price}}</p>
 					<p>{{obj.chocolate_id}}</p>
@@ -163,12 +163,12 @@
 					<!--<p>Rs.100</p>-->
 					<!--<p>Rating-5</p>-->
 				<!--</div>-->
-				<a href="/indicake">View More</a>
+				<a href="/chocolate">View More</a>
 			</div>
 			<div class="watches"><h1>Watches</h1>
 				{% for obj in watch %}
 				<div class=items>
-					<img src='/media/{{obj.image}}' width="100%" height="140px"/>
+					<a href="/watch/{{obj.pk}}"><img src='/media/{{obj.image}}' width="100%"/></a>
 					<!-- <h3>{{obj.description}}</h3> -->
 					<p>Rs.{{obj.price}}</p>
 					<p>{{obj.brand}}</p>
@@ -198,12 +198,12 @@
 					<!--<p>Rs.100</p>-->
 					<!--<p>Rating-5</p>-->
 				<!--</div>-->
-				<a href="/indicake">View More</a>
+				<a href="/watch">View More</a>
 			</div>
 			<div class="bouquets"><h1>Bouquets</h1>
 				{% for obj in bouquet %}
 				<div class=items>
-					<img src='/media/{{obj.image}}' width="100%" height="140px"/>
+					<a href="/bouquet/{{obj.pk}}"><img src='/media/{{obj.image}}' width="100%"/></a>
 					<!-- <h3>{{obj.description}}</h3> -->
 					<p>Rs.{{obj.price}}</p>
 					<p>{{obj.bouquet_id}}</p>
@@ -233,12 +233,12 @@
 					<!--<p>Rs.100</p>-->
 					<!--<p>Rating-5</p>-->
 				<!--</div>-->
-				<a href="/indicake">View More</a>
+				<a href="/bouquet">View More</a>
 			</div>
 			<div class="cards"><h1>Cards</h1>
 				{% for obj in card %}
 				<div class=items>
-					<img src='/media/{{obj.image}}' width="100%" height="140px"/>
+					<a href="/card/{{obj.pk}}"><img src='/media/{{obj.image}}' width="100%"/></a>
 					<!-- <h3>{{obj.description}}</h3> -->
 					<p>{{obj.card_id}}</p>
 					<p>Rs.{{obj.price}}</p>
@@ -268,7 +268,7 @@
 					<!--<p>Rs.100</p>-->
 					<!--<p>Rating-5</p>-->
 				<!--</div>-->
-				<a href="/indicake">View More</a>
+				<a href="/card">View More</a>
 			</div>
 		</div>
 	</div>
